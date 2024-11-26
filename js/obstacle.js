@@ -1,5 +1,5 @@
 class Obstacle {
     constructor(){
-        ///
+
     }
 }
