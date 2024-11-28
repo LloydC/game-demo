@@ -23,7 +23,6 @@ class CarObstacle {
         this.element.style.left = `${this.left}px`;
         this.element.style.top = `${this.top}px`;
       }
-    
       move() {
         // Move the obstacle down by 3px
         this.top += 3;
