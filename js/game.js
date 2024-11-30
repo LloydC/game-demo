@@ -30,6 +30,7 @@ class Game {
       this.startScreen.style.display = "none";
       
       // Show the game screen
+      document.getElementById('game-container').style.display = "block";
       this.gameScreen.style.display = "block";
   
       // Runs the gameLoop on a fequency of 60 times per second. Also stores the ID of the interval.
@@ -101,6 +102,7 @@ class Game {
   
       // Hide game screen
       this.gameScreen.style.display = "none";
+      document.getElementById('game-container').style.display = "none";
       // Show end game screen
       this.gameEndScreen.style.display = "block";
     }
